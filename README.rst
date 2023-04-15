@@ -8,6 +8,8 @@ I create an `Alfred Workflow <https://www.alfredapp.com/workflows/>`_ framework 
 
 **This project allows you to quickly search and browse** `AWS CDK reference documents <https://docs.aws.amazon.com/cdk/api/v2/docs/aws-construct-library.html>`_. It automates the creation of the "your own json data" for document searching.
 
+.. image:: https://user-images.githubusercontent.com/6800411/232178797-17594a06-c3f0-4b4c-b433-0423eca22cdd.gif
+
 
 How it Work?
 ------------------------------------------------------------------------------
