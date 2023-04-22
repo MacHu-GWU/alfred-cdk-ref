@@ -37,6 +37,10 @@ path_data_zip = Path(dir_here, data_zip_file)
 path_cdk_python_data = Path(dir_alfred_fts, "cdkpython-data.json")
 path_cdk_python_settings = Path(dir_alfred_fts, "cdkpython-setting.json")
 path_cdk_python_index = Path(dir_alfred_fts, "cdkpython-whoosh_index")
+
+path_cdk_ts_data = Path(dir_alfred_fts, "cdkts-data.json")
+path_cdk_ts_settings = Path(dir_alfred_fts, "cdkts-setting.json")
+path_cdk_ts_index = Path(dir_alfred_fts, "cdkts-whoosh_index")
 # ------------------------------------------------------------------------------
 
 release_url = (
@@ -65,6 +69,11 @@ for (
     path_setting,
     path_whoosh_index,
 ) in [
+    (
+        path_cdk_ts_data,
+        path_cdk_ts_settings,
+        path_cdk_ts_index,
+    ),
     (
         path_cdk_python_data,
         path_cdk_python_settings,
